@@ -1,0 +1,17 @@
+name: UAS_PSB_KELOMPOK4
+channels:
+  - defaults
+  - conda-forge # Add other channels if you use them
+dependencies:
+  - python=3.9 # Specify the Python version you used
+  - numpy
+  - scipy
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - matplotlib
+  - pandas
+  - ipykernel # For notebooks
+  - (add any other libraries your project directly depends on)
+  - pip:
+    - gradio # Or streamlit, flask, etc. for the GUI
